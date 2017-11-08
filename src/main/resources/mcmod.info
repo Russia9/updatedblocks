@@ -1,0 +1,16 @@
+[
+{
+  "modid": "updatedblocks",
+  "name": "Updated Blocks",
+  "description": "This mod adds blocks from new versions, for example concrete.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Russia9"],
+  "credits": "a.kovalev9@hotmail.com",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

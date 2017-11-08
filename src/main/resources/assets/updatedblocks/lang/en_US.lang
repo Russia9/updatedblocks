@@ -1,0 +1,14 @@
+tile.granite.name=Granite
+tile.andesite.name=Andesite
+tile.diorite.name=Diorite
+tile.granite_smooth.name=Polished Granite
+tile.andesite_smooth.name=Polished Andesite
+tile.diorite_smooth.name=Polished Diorite
+tile.barrier.name=Barrier
+
+item.mutton_raw.name=Raw Mutton
+item.mutton_cooked.name=Cooked Mutton
+item.rabbit_raw.name=Raw Rabbit
+item.rabbit_cooked.name=Cooked Rabbit
+item.rabbit_stew.name=Stew Rabbit
+item.rabbit_hide.name=Rabbit Hide
