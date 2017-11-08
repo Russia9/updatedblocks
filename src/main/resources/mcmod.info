@@ -2,8 +2,8 @@
 {
   "modid": "updatedblocks",
   "name": "Updated Blocks",
-  "description": "This mod adds blocks from new versions, for example concrete.",
-  "version": "${version}",
+  "description": "This mod adds blocks from new versions, for example concrete, andesite or granite.",
+  "version": "1.0 SNAPSHOT",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",

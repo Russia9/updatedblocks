@@ -1,6 +1,5 @@
 package org.russia9.updatedblocks.common.item.food;
 
-import javafx.scene.effect.Effect;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
@@ -23,9 +22,9 @@ public class ItemModFood extends ItemFood {
     @Override
     protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
         super.onFoodEaten(stack, world, player);
-        for (int i = 0; i < potionEffects.length; i++) {
-            if (!world.isRemote && potionEffects[i] != null && potionEffects[i].getPotionID() > 0)
-                player.addPotionEffect(new PotionEffect(this.potionEffects[i].getPotionID(), this.potionEffects[i].getDuration(), this.potionEffects[i].getAmplifier(), this.potionEffects[i].getIsAmbient()));
+        for (PotionEffect potionEffect : potionEffects) {
+            if (!world.isRemote && potionEffect != null && potionEffect.getPotionID() > 0)
+                player.addPotionEffect(new PotionEffect(potionEffect.getPotionID(), potionEffect.getDuration(), potionEffect.getAmplifier(), potionEffect.getIsAmbient()));
         }
     }
 }

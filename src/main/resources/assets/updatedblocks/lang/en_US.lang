@@ -1,10 +1,10 @@
-tile.granite.name=Granite
-tile.andesite.name=Andesite
-tile.diorite.name=Diorite
-tile.granite_smooth.name=Polished Granite
-tile.andesite_smooth.name=Polished Andesite
-tile.diorite_smooth.name=Polished Diorite
-tile.barrier.name=Barrier
+tile.bone_block.name=Bone Block
+tile.stone_0.name=Granite
+tile.stone_1.name=Polished Granite
+tile.stone_2.name=Diorite
+tile.stone_3.name=Polished Diorite
+tile.stone_4.name=Andesite
+tile.stone_5.name=Polished Andesite
 
 item.mutton_raw.name=Raw Mutton
 item.mutton_cooked.name=Cooked Mutton
