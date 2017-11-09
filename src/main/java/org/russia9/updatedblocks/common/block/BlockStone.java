@@ -7,7 +7,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
-import org.russia9.updatedblocks.updatedBlocks;
+import org.russia9.updatedblocks.UpdatedBlocks;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class BlockStone extends Block {
         this.setHardness(1.5F);
         this.setResistance(30F);
         this.setStepSound(soundTypeStone);
-        this.setBlockTextureName(updatedBlocks.MODID + ":" + unlocalizedName);
+        this.setBlockTextureName(UpdatedBlocks.MODID + ":" + unlocalizedName);
 
         iIcons = new IIcon[6];
     }

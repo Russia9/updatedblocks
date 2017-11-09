@@ -7,7 +7,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = "updatedblocks",name = "Updated Blocks")
-public class updatedBlocks {
+public class UpdatedBlocks {
     @SidedProxy(clientSide = "org.russia9.updatedblocks.client.ClientProxy", serverSide = "org.russia9.updatedblocks.common.ServerProxy")
     public static CommonProxy proxy;
 

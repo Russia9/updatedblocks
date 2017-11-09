@@ -5,10 +5,14 @@ tile.stone_2.name=Diorite
 tile.stone_3.name=Polished Diorite
 tile.stone_4.name=Andesite
 tile.stone_5.name=Polished Andesite
+tile.purpur_block.name=Purpur Block
+tile.purpur_pillar.name=Purpur Pillar
 
 item.mutton_raw.name=Raw Mutton
 item.mutton_cooked.name=Cooked Mutton
 item.rabbit_raw.name=Raw Rabbit
 item.rabbit_cooked.name=Cooked Rabbit
 item.rabbit_stew.name=Stew Rabbit
+item.beetroot.name=Beetroot
+item.beetroot_soup.name=Russian Borsch (Beetroot soup)
 item.rabbit_hide.name=Rabbit Hide
