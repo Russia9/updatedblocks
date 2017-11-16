@@ -11,6 +11,7 @@ import java.lang.reflect.Field;
 public final class ModBlocks {
     public static final Block stone = new Stone();
     public static final Block prismarineBlock = new PrismarineBlock();
+    public static final Block seaLantern = new SeaLantern();
     public static final Block slimeBlock = new SlimeBlock();
 
     public static void init() {
