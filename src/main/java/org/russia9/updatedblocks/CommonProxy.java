@@ -5,6 +5,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import org.russia9.updatedblocks.common.block.ModBlocks;
 import org.russia9.updatedblocks.common.item.ModItems;
+import org.russia9.updatedblocks.common.recipe.ModRecipes;
 
 
 public class CommonProxy {
@@ -14,6 +15,7 @@ public class CommonProxy {
     }
 
     public void init(FMLInitializationEvent e) {
+        ModRecipes.init();
     }
 
     public void postInit(FMLPostInitializationEvent e) {

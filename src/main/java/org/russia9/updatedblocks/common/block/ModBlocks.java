@@ -11,6 +11,9 @@ import java.lang.reflect.Field;
 public final class ModBlocks {
     public static final Block stone = new Stone();
     public static final Block prismarineBlock = new PrismarineBlock();
+    public static final Block purpurBlock = new PurpurBlock();
+    public static final Block purpurSlab = new PurpurSlab();
+    public static final Block purpurPillar = new PurpurPillar();
     public static final Block seaLantern = new SeaLantern();
     public static final Block slimeBlock = new SlimeBlock();
 
@@ -36,7 +39,7 @@ public final class ModBlocks {
             String[] strings = name.split("\\.");
 
             if (block instanceof ISubBlocksBlock)
-                GameRegistry.registerBlock(block, ((BlockGeneric) block).getItemBlockClass(), strings[strings.length - 1]);
+                GameRegistry.registerBlock(block, ((ISubBlocksBlock) block).getItemBlockClass(), strings[strings.length - 1]);
             else
                 GameRegistry.registerBlock(block, strings[strings.length - 1]);
 

@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
 
 public final class ModItems {
     public static final Item prismarineCrystals = new PrismarineCrystals();
-    public static final Item prismarineCShard = new PrismarineShard();
+    public static final Item prismarineShard = new PrismarineShard();
 
 
     public static void init() {

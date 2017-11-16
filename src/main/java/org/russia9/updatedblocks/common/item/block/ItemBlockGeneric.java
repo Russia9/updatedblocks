@@ -2,7 +2,6 @@ package org.russia9.updatedblocks.common.item.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemBlockWithMetadata;
 import net.minecraft.item.ItemStack;
 import org.russia9.updatedblocks.common.block.BlockGeneric;
 import org.russia9.updatedblocks.common.block.ModBlocks;
