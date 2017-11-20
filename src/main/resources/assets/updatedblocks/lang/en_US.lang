@@ -1,14 +1,11 @@
-tile.bone_block.name=Bone Block
-tile.stone_0.name=Granite
-tile.stone_1.name=Polished Granite
-tile.stone_2.name=Diorite
-tile.stone_3.name=Polished Diorite
-tile.stone_4.name=Andesite
-tile.stone_5.name=Polished Andesite
-
-item.mutton_raw.name=Raw Mutton
-item.mutton_cooked.name=Cooked Mutton
-item.rabbit_raw.name=Raw Rabbit
-item.rabbit_cooked.name=Cooked Rabbit
-item.rabbit_stew.name=Stew Rabbit
-item.rabbit_hide.name=Rabbit Hide
+tile.updatedblocks.bone_block.name=Bone Block
+tile.updatedblocks.stone_granite.name=Granite
+tile.updatedblocks.stone_granite_smooth.name=Polished Granite
+tile.updatedblocks.stone_diorite.name=Diorite
+tile.updatedblocks.stone_diorite_smooth.name=Polished Diorite
+tile.updatedblocks.stone_andesite.name=Andesite
+tile.updatedblocks.stone_andesite_smooth.name=Polished Andesite
+tile.updatedblocks.prismarine_block_rough.name=Prismarine
+tile.updatedblocks.prismarine_block_bricks.name=Prismarine Bricks
+tile.updatedblocks.prismarine_block_dark.name=Dark Prismarine
+tile.updatedblocks.slime.name=Slime Block
