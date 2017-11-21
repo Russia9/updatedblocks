@@ -12,7 +12,7 @@ public class RedSandstone extends BlockSandStone implements ModBlocks.ISubBlocks
 
     public RedSandstone() {
         setHardness(0.8F);
-        setBlockTextureName(UpdatedBlocks.MODID+":"+"red_sandstone");
+        setBlockTextureName(UpdatedBlocks.MODID + ":" + "red_sandstone");
         setBlockName(Utils.getUnlocalisedName("red_sandstone"));
         setCreativeTab(UpdatedBlocks.enableRedSandstone ? CreativeTabs.tabBlock : null);
     }
