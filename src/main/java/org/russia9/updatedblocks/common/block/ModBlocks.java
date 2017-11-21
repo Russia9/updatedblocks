@@ -13,6 +13,8 @@ public final class ModBlocks {
     public static final Block prismarineBlock = new PrismarineBlock();
     public static final Block purpurBlock = new PurpurBlock();
     public static final Block purpurSlab = new PurpurSlab();
+    public static final Block purpurStairs = new PurpurStairs();
+    public static final Block redSandstone = new RedSandstone();
     public static final Block purpurPillar = new PurpurPillar();
     public static final Block seaLantern = new SeaLantern();
     public static final Block slimeBlock = new SlimeBlock();
