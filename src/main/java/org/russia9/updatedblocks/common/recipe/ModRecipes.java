@@ -18,31 +18,23 @@ import org.russia9.updatedblocks.common.item.ModItems;
 public final class ModRecipes {
     public static final void init() {
         if (UpdatedBlocks.enableSlimeBlock) {
-            addShapedRecipe(new ItemStack(ModBlocks.slimeBlock), "xxx", "xxx", "xxx", 'x', "slimeball");
+            addShapedRecipe(new ItemStack(ModBlocks.slimeBlock), "xxx", "xxx", "xxx", 'x', Items.slime_ball);
             addShapelessRecipe(new ItemStack(Items.slime_ball, 9), ModBlocks.slimeBlock);
         }
         if (UpdatedBlocks.enableStones) {
-            addShapedRecipe(new ItemStack(ModBlocks.stone, 2, Stone.DIORITE), "xy", "yx", 'x', new ItemStack(Blocks.cobblestone), 'y', "gemQuartz");
-            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_DIORITE), "xx", "xx", 'x', "stoneDiorite");
-            addShapelessRecipe(new ItemStack(ModBlocks.stone, 2, Stone.ANDESITE), new ItemStack(Blocks.cobblestone), "stoneDiorite");
-            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_ANDESITE), "xx", "xx", 'x', "stoneAndesite");
-            addShapelessRecipe(new ItemStack(ModBlocks.stone, 2, Stone.GRANITE), "gemQuartz", "stoneDiorite");
-            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_GRANITE), "xx", "xx", 'x', "stoneGranite");
+            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_DIORITE), "xx", "xx", 'x', new ItemStack(ModBlocks.stone, 1, Stone.DIORITE));
+            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_ANDESITE), "xx", "xx", 'x', new ItemStack(ModBlocks.stone, 1, Stone.ANDESITE));
+            addShapedRecipe(new ItemStack(ModBlocks.stone, 4, Stone.POLISHED_GRANITE), "xx", "xx", 'x', new ItemStack(ModBlocks.stone, 1, Stone.GRANITE));
         }
         if (UpdatedBlocks.enablePrismarine) {
             int PLAIN = 0;
             int BRICKS = 1;
             int DARK = 2;
 
-            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, DARK), "xxx", "xyx", "xxx", 'x', "shardPrismarine", 'y', "dyeBlack");
-            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, PLAIN), "xx", "xx", 'x', "shardPrismarine");
-            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, BRICKS), "xxx", "xxx", "xxx", 'x', "shardPrismarine");
-            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock), "xyx", "yyy", "xyx", 'x', "shardPrismarine", 'y', "crystalPrismarine");
-
-            if (UpdatedBlocks.enableRecipeForPrismarine && !Loader.isModLoaded("Botania")) {
-                addShapedRecipe(new ItemStack(ModItems.prismarineShard, 4), "xy", "zx", 'x', "gemQuartz", 'y', "dyeBlue", 'z', "dyeGreen");
-                addShapedRecipe(new ItemStack(ModItems.prismarineCrystals, 4), "xy", "yx", 'x', "gemQuartz", 'y', "dustGlowstone");
-            }
+            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, DARK), "xxx", "xyx", "xxx", 'x', ModItems.prismarineShard, 'y', Items.dye);
+            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, PLAIN), "xx", "xx", 'x', ModItems.prismarineShard);
+            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, BRICKS), "xxx", "xxx", "xxx", 'x', ModItems.prismarineShard);
+            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock), "xyx", "yyy", "xyx", 'x', ModItems.prismarineShard, 'y', ModItems.prismarineCrystals);
         }
     }
 
