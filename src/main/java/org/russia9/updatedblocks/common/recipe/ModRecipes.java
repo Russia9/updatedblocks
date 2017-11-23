@@ -17,6 +17,12 @@ import org.russia9.updatedblocks.common.item.ModItems;
 
 public final class ModRecipes {
     public static final void init() {
+        if (UpdatedBlocks.enableStoneBrickRecipes) {
+            addShapelessRecipe(new ItemStack(Blocks.mossy_cobblestone), new ItemStack(Blocks.cobblestone), new ItemStack(Blocks.vine));
+            addShapelessRecipe(new ItemStack(Blocks.stonebrick, 1, 1), new ItemStack(Blocks.stonebrick), new ItemStack(Blocks.vine));
+            addShapedRecipe(new ItemStack(Blocks.stonebrick, 1, 3), "x", "x", 'x', new ItemStack(Blocks.stone_slab, 1, 5));
+            GameRegistry.addSmelting(new ItemStack(Blocks.stonebrick), new ItemStack(Blocks.stonebrick, 1, 2), 0.0F);
+        }
         if (UpdatedBlocks.enableSlimeBlock) {
             addShapedRecipe(new ItemStack(ModBlocks.slimeBlock), "xxx", "xxx", "xxx", 'x', Items.slime_ball);
             addShapelessRecipe(new ItemStack(Items.slime_ball, 9), ModBlocks.slimeBlock);
@@ -34,7 +40,7 @@ public final class ModRecipes {
             addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, DARK), "xxx", "xyx", "xxx", 'x', ModItems.prismarineShard, 'y', Items.dye);
             addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, PLAIN), "xx", "xx", 'x', ModItems.prismarineShard);
             addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock, 1, BRICKS), "xxx", "xxx", "xxx", 'x', ModItems.prismarineShard);
-            addShapedRecipe(new ItemStack(ModBlocks.prismarineBlock), "xyx", "yyy", "xyx", 'x', ModItems.prismarineShard, 'y', ModItems.prismarineCrystals);
+            addShapedRecipe(new ItemStack(ModBlocks.seaLantern), "xyx", "yyy", "xyx", 'x', ModItems.prismarineShard, 'y', ModItems.prismarineCrystals);
         }
     }
 
