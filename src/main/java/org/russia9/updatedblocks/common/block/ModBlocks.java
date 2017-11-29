@@ -17,6 +17,7 @@ public final class ModBlocks {
     public static final Block redSandstone = new RedSandstone();
     public static final Block redSandstoneSlab = new RedSandstoneSlab();
     public static final Block redSandstoneStairs = new RedSandstoneStairs();
+    public static final Block boneBlock = new Bone();
     public static final Block purpurPillar = new PurpurPillar();
     public static final Block seaLantern = new SeaLantern();
     public static final Block slimeBlock = new SlimeBlock();
